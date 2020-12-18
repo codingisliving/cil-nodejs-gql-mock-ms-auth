@@ -1,7 +1,7 @@
 {
-  "name": "cil-nodejs-gql-mock-ms",
+  "name": "cil-nodejs-gql-mock-ms-auth",
   "version": "1.0.0",
-  "description": "Support source code for tutorial of \"How to Implement GraphQL in Microservices Using Node.js\"",
+  "description": "Support source code for tutorial of \"How to Implement GraphQL in Microservices Using Node.js\" Part 4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,8 +10,10 @@
   "author": "Coding Is Living",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "notarealdb": "^0.2.2"
   }
 }
